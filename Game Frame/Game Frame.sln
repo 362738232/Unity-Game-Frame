@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Compa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.SpatialTracking", "UnityEngine.SpatialTracking.csproj", "{3A5A3413-1345-6D5F-7FA3-480BBD8CE2EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{83F8C49D-5EE2-3B46-B472-23050524BAEB}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro.Editor", "Unity.TextMeshPro.Editor.csproj", "{FD336FD6-04B4-549D-6689-D3A89EC1FE20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Timeline.Editor", "Unity.Timeline.Editor.csproj", "{7DD9E39F-95B6-4557-B7A2-61C1C77692DF}"
@@ -44,6 +46,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VSCode.Editor", "Unity.VSCode.Editor.csproj", "{0270FE46-8943-BAAA-3BD9-C098E55E1119}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.SpatialTracking", "UnityEditor.SpatialTracking.csproj", "{AC06FDB7-3C2B-9921-A46B-CC0CA0D79487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{952E6AA0-A3F1-E727-9145-A217710DD703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +99,10 @@ Global
 		{3A5A3413-1345-6D5F-7FA3-480BBD8CE2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A5A3413-1345-6D5F-7FA3-480BBD8CE2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A5A3413-1345-6D5F-7FA3-480BBD8CE2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F8C49D-5EE2-3B46-B472-23050524BAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F8C49D-5EE2-3B46-B472-23050524BAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F8C49D-5EE2-3B46-B472-23050524BAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F8C49D-5EE2-3B46-B472-23050524BAEB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FD336FD6-04B4-549D-6689-D3A89EC1FE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FD336FD6-04B4-549D-6689-D3A89EC1FE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD336FD6-04B4-549D-6689-D3A89EC1FE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -139,6 +147,10 @@ Global
 		{AC06FDB7-3C2B-9921-A46B-CC0CA0D79487}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC06FDB7-3C2B-9921-A46B-CC0CA0D79487}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC06FDB7-3C2B-9921-A46B-CC0CA0D79487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952E6AA0-A3F1-E727-9145-A217710DD703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952E6AA0-A3F1-E727-9145-A217710DD703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952E6AA0-A3F1-E727-9145-A217710DD703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952E6AA0-A3F1-E727-9145-A217710DD703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

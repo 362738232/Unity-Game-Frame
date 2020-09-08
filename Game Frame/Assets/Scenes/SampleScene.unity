@@ -398,7 +398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 450, y: 210}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 403.79614, y: 300.7224}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800626676
@@ -416,6 +416,279 @@ MonoBehaviour:
   StartAction: 0
   HiddenAction: 4
   CustomStartAnchoredPosition: {x: 0, y: 0, z: 0}
+  ShowBehaviour:
+    Animation:
+      AnimationType: 1
+      Move:
+        From: {x: 0, y: 0, z: 0}
+        To: {x: 0, y: 0, z: 0}
+        By: {x: 0, y: 0, z: 0}
+        AnimationType: 1
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Direction: 0
+        CustomPosition: {x: 0, y: 0, z: 0}
+      Rotate:
+        From: {x: 0, y: 0, z: 0}
+        To: {x: 0, y: 0, z: 0}
+        By: {x: 0, y: 0, z: 0}
+        AnimationType: 1
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RotateMode: 0
+      Scale:
+        From: {x: 0, y: 0, z: 0}
+        To: {x: 0, y: 0, z: 0}
+        By: {x: 0, y: 0, z: 0}
+        AnimationType: 1
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+      Fade:
+        From: 0
+        To: 0
+        By: 0
+        AnimationType: 1
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+    AnimationType: 1
+  HideBehaviour:
+    Animation:
+      AnimationType: 2
+      Move:
+        From: {x: 0, y: 0, z: 0}
+        To: {x: 0, y: 0, z: 0}
+        By: {x: 0, y: 0, z: 0}
+        AnimationType: 2
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Direction: 0
+        CustomPosition: {x: 0, y: 0, z: 0}
+      Rotate:
+        From: {x: 0, y: 0, z: 0}
+        To: {x: 0, y: 0, z: 0}
+        By: {x: 0, y: 0, z: 0}
+        AnimationType: 2
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RotateMode: 0
+      Scale:
+        From: {x: 0, y: 0, z: 0}
+        To: {x: 0, y: 0, z: 0}
+        By: {x: 0, y: 0, z: 0}
+        AnimationType: 2
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+      Fade:
+        From: 0
+        To: 0
+        By: 0
+        AnimationType: 2
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+    AnimationType: 2
+  LoopBehaviour:
+    Animation:
+      AnimationType: 3
+      Move:
+        From: {x: 0, y: 0, z: 0}
+        To: {x: 0, y: 0, z: 0}
+        By: {x: 0, y: 0, z: 0}
+        AnimationType: 3
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Direction: 0
+        CustomPosition: {x: 0, y: 0, z: 0}
+      Rotate:
+        From: {x: 0, y: 0, z: 0}
+        To: {x: 0, y: 0, z: 0}
+        By: {x: 0, y: 0, z: 0}
+        AnimationType: 3
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        RotateMode: 0
+      Scale:
+        From: {x: 0, y: 0, z: 0}
+        To: {x: 0, y: 0, z: 0}
+        By: {x: 0, y: 0, z: 0}
+        AnimationType: 3
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+      Fade:
+        From: 0
+        To: 0
+        By: 0
+        AnimationType: 3
+        Delay: 0
+        Duration: 0.2
+        Enabled: 0
+        UseCustomFromAndTo: 0
+        Vibrato: 10
+        Elasticity: 1
+        LoopTimes: -1
+        LoopType: 1
+        EaseType: 0
+        Ease: 1
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+    AnimationType: 3
 --- !u!114 &1800626677
 MonoBehaviour:
   m_ObjectHideFlags: 0
